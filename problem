@@ -1,0 +1,8 @@
+def gradingStudents(grades):
+    #
+    # Write your code here.
+    #
+    for x,i in enumerate(grades):
+     if(i>=38) and (i%5)>=3:
+        grades[x]=i+5-(i%5)
+     return (grades)
